@@ -22,7 +22,7 @@ const Education = () => {
 
           <div className="bg-gray-900 p-4 rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600 w-4/5 mx-auto">
             <p className="text-3xl font-bold">2017</p>
-            <h3 className="text-2xl font-bold mt-2">Bachelor of Computer Science (CS)</h3>
+            <h3 className="text-2xl font-bold mt-2">Bachelor of Science (Computer Science)</h3>
             <p className="text-lg font-light mt-2" style={{ fontFamily: 'Roboto, serif' }}>Mats University</p>
           </div>
 
@@ -34,14 +34,14 @@ const Education = () => {
           {/* Column 2 */}
           <div className="bg-gray-900 p-4 rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600 w-4/5 mx-auto">
             <p className="text-3xl font-bold">2014</p> 
-            <h3 className="text-2xl font-bold mt-2">High School</h3>
-            <p className="text-lg font-light mt-2" style={{ fontFamily: 'Roboto, serif' }}>St. Xavier&apos;s Public School</p>
+            <h3 className="text-2xl font-bold mt-2">High School (12<sup>th</sup>)</h3>
+            <p className="text-lg font-light mt-2" style={{ fontFamily: 'Roboto, serif' }}>St. Xavier’s Public School</p>
           </div>
 
           <div className="bg-gray-900 p-4 rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600 w-4/5 mx-auto">
             <p className="text-3xl font-bold">2012</p> 
-            <h3 className="text-2xl font-bold mt-2">Secondary School</h3>
-            <p className="text-lg font-light mt-2" style={{ fontFamily: 'Roboto, serif' }}>St. Xavier&apos;s Public School</p>
+            <h3 className="text-2xl font-bold mt-2">Secondary School (10<sup>th</sup>)</h3>
+            <p className="text-lg font-light mt-2" style={{ fontFamily: 'Roboto, serif' }}>St. Xavier’s Public School</p>
           </div>
         </div>
       </div>

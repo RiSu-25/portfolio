@@ -109,9 +109,16 @@ const Hero = () => {
         </div>
         <div className="relative group">
           <motion.img
-            initial={{ opacity: 0, x: -100 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.4, delay: 0 }}
+            animate={{
+              y: [0, -10, 10, -10, 0], // Vertical movement (up and down)
+              x: [0, 5, -5, 5, 0], // Horizontal movement (side to side)
+            }}
+            transition={{
+              duration: 4, // Full animation cycle duration
+              repeat: Infinity, // Loop the animation
+              repeatType: "loop", // Ensures smooth looping
+              ease: "easeInOut", // Smooth movement
+            }}
             src={headerImg}
             className="md:w-[500px] w-[300px]"
             alt=""

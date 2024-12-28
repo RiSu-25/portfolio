@@ -128,15 +128,15 @@ const Contact = () => {
               </svg>
             </motion.div>
 
-            <motion.form onSubmit={onSubmit} className="flex flex-col gap-4 bg-transparent text-white z-20"
+            <motion.form onSubmit={onSubmit} className="flex flex-col gap-4 bg-transparent text-white z-20 w-full max-w-lg mx-auto px-4"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 4, duration: 1 }}
             >
-              <input type="text" placeholder="Name" name="name" required className="p-4 border border-gray-400 rounded bg-transparent" />
-              <input type="email" placeholder="Email" name="email" required className="p-4 border border-gray-400 rounded bg-transparent" />
-              <textarea rows={8} placeholder="Message" name="message" className="p-4 border border-gray-400 rounded bg-transparent" />
-              <button type="submit" className="p-4 bg-purple-600 hover:bg-purple-700 transition rounded text-white font-semibold">
+              <input type="text" placeholder="Name" name="name" required className="p-4 border border-gray-400 rounded bg-transparent w-full text-base sm:text-lg" />
+              <input type="email" placeholder="Email" name="email" required className="p-4 border border-gray-400 rounded bg-transparent w-full text-base sm:text-lg" />
+              <textarea rows={4}  placeholder="Message" name="message" className="p-4 border border-gray-400 rounded bg-transparent w-full text-base sm:text-lg" />
+              <button type="submit" className="p-4 bg-purple-600 hover:bg-purple-700 transition rounded text-white font-semibold w-full text-base sm:text-lg">
                 Submit
               </button>
             </motion.form>

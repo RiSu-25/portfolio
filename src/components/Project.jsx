@@ -20,6 +20,16 @@ const Project = () => {
       },
     },
     {
+      img: project3,
+      title: "E-Commerce Website",
+      description: "An e-commerce platform for online shopping enthusiasts.",
+      technology: "MongoDB, ExpressJS, ReactJS and NodeJS", 
+      links: {
+        site: "https://ecommerce-frontend-snowy.vercel.app/",
+        github: "https://github.com/RiSu-25/ecommerce",
+      },
+    },
+    {
       img: project2,
       title: "Hotel Booking System",
       description:
@@ -30,16 +40,7 @@ const Project = () => {
         github: "https://github.com/RiSu-25/hotelbooking",
       },
     },
-    {
-      img: project3,
-      title: "E-Commerce Website",
-      description: "An e-commerce platform for online shopping enthusiasts.",
-      technology: "MongoDB, ExpressJS, ReactJS and NodeJS", 
-      links: {
-        site: "https://ecommerce-frontend-snowy.vercel.app/",
-        github: "https://github.com/RiSu-25/ecommerce",
-      },
-    },
+    
   ];
 
   // Animation Variants
