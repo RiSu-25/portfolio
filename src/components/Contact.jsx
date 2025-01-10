@@ -75,7 +75,7 @@ const Contact = () => {
               <motion.div variants={variants} className="space-y-2">
                 <h2 className="text-lg font-semibold">Mail</h2>
                 <span className="text-sm text-gray-300">
-                  rishikar2505@gmail.com
+                  eagerrishita@gmail.com
                 </span>
               </motion.div>
               <motion.div variants={variants} className="space-y-2">
